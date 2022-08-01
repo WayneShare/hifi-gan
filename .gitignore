@@ -1,0 +1,8 @@
+__pycache__
+test_files
+test_mel_files
+generated_files
+generated_files_from_mel
+LJSpeech-1.1/wavs
+LJSpeech-1.1/metadata.csv
+LJSpeech-1.1/README

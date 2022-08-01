@@ -39,14 +39,14 @@ def load_checkpoint(filepath, device):
     assert os.path.isfile(filepath)
     print("Loading '{}'".format(filepath))
     checkpoint_dict = torch.load(filepath, map_location=device)
-    print("Complete.")
+    print("load_checkpoint Complete.")
     return checkpoint_dict
 
 
 def save_checkpoint(filepath, obj):
     print("Saving checkpoint to {}".format(filepath))
     torch.save(obj, filepath)
-    print("Complete.")
+    print("save_checkpoint Complete.")
 
 
 def scan_checkpoint(cp_dir, prefix):
