@@ -6,3 +6,5 @@ generated_files_from_mel
 LJSpeech-1.1/wavs
 LJSpeech-1.1/metadata.csv
 LJSpeech-1.1/README
+/cp_hifigan/
+/.idea/
